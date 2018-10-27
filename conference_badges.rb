@@ -17,7 +17,7 @@ end
 
 def printer(names)
   badges = batch_badge_creator(names)
-  rooms = assign_rooms(name)
+  rooms = assign_rooms(names)
   attendance = names.size
   attendee = 0
   while attendee < attendence do
