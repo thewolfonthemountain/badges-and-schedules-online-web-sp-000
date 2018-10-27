@@ -23,6 +23,6 @@ def printer(names)
   while attendee < attendance
     puts badges[attendee]
     puts rooms[attendee]
-    attendee =+ 1
+    attendee += 1
   end
 end
