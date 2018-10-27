@@ -1,6 +1,6 @@
 # Write your code here.
 def badge_maker(names)
-  names.each {|name| puts "Hello, my name is #{name}"}
+  names.each {|name| return "Hello, my name is #{name}"}
 end
 
 def assign_rooms(names)
