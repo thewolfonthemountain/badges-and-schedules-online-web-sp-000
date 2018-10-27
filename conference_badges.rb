@@ -20,7 +20,7 @@ def printer(names)
   rooms = assign_rooms(names)
   attendance = names.size
   attendee = 0
-  while attendee < attendance do
+  while attendee < attendance
     puts badges[attendee]
     puts rooms[attendee]
     attendee =+ 1
